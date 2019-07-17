@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Hi, I'm Taiping
-subtitle: Ph.D. Candidate in Computational Neuroscience, Autonomous Mobile Robots
+subtitle: Ph.D. in Computational Neuroscience, Neurorobotics, Autonomous Mobile Robots
 ---
 
-My name is Taiping Zeng. I am a Ph.D. candidate in computational neuroscience Neurorobotics, and autonomous mobile robots. 
+My name is Taiping Zeng. I am a Ph.D. in Computational Neuroscience, Neurorobotics, and Autonomous Mobile Robots. 
 
 ### CONTACT INFORMATION
 
