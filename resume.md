@@ -4,7 +4,7 @@ title: Hi, I'm Taiping
 subtitle: Ph.D. Candidate in Computational Neuroscience, Autonomous Mobile Robots
 ---
 
-My name is Taiping Zeng. I am a Ph.D. candidate in computational neuroscience and autonomous mobile robots. 
+My name is Taiping Zeng. I am a Ph.D. candidate in computational neuroscience Neurorobotics, and autonomous mobile robots. 
 
 ### CONTACT INFORMATION
 
@@ -18,6 +18,7 @@ Nanta Street 114#, 110016, Shenyang, Liaoning, China
 ### RESEARCH INTERESTS
 - Spatial Cognition and Navigation,
 - Computational Neuroscience,
+- Neurorobotics,
 - Autonomous Mobile Robots,
 - Brain-inspired Intelligence
 
