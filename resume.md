@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Hi, I'm Taiping
-subtitle: Ph.D. in Computational Neuroscience, Neurorobotics, Autonomous Mobile Robots
+subtitle: Ph.D. in Computational Neuroscience and Robotics
 ---
 
-My name is Taiping Zeng. I am a Ph.D. in Computational Neuroscience, Neurorobotics, and Autonomous Mobile Robots. 
+My name is Taiping Zeng. I am a Ph.D. in Computational Neuroscience and Robotics. 
 
 ### CONTACT INFORMATION
 
@@ -18,6 +18,7 @@ Nanta Street 114#, 110016, Shenyang, Liaoning, China
 ### RESEARCH INTERESTS
 - Spatial Cognition and Navigation,
 - Computational Neuroscience,
+- Robotics,
 - Neurorobotics,
 - Autonomous Mobile Robots,
 - Brain-inspired Intelligence
