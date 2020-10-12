@@ -2,7 +2,7 @@
 layout: post
 title: Cognitive Maps
 subtitle: Organizing Experience to form Knowledge, Organizing Knowledge for Flexible Behavior
-bigimg: /img/path.jpg
+bigimg: /img/cognitivemapbike.jpeg
 tags: [robotics, neuroscience]
 image: /img/hello_world.jpeg
 ---
