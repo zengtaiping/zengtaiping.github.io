@@ -51,18 +51,18 @@
                             </div>
 
                             <div class="form-group">
-                                <button type="submit" class="btn btn-default" id="id" value="login" onclick="return login()"><strong>Sign in</strong></button>
+                                <button type="submit" class="btn btn-default form-control" id="id" value="login" onclick="return login()"><strong>Sign in</strong></button>
                                 <script>
                                 function login(){
                                     var username=document.getElementById("form-username").value
                                     var pwd=document.getElementById("form-password").value
                                     if((username == "Taiping") &&(pwd == "admin2020"))
                                     {
-                                        var url = "./main_index.html";
-                                        window.location(url);
+                                        // var url = "www.google.com";
+                                        window.location("/main_index.html");
                                     }else
                                     {
-                                        alert("username: "+username+" "+"password: "+pwd);
+                                        alert("username: "+username+","+"password: "+pwd);
                                     }
                                 }
                                 </script>
