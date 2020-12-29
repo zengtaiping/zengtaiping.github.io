@@ -51,12 +51,19 @@
                             </div>
 
                             <div class="form-group">
-                                <button type="submit" class="btn btn-warning form-control" id="id" value="login" onclick="return sub()"><strong>Sign in</strong></button>
+                                <button type="submit" class="btn btn-default" id="id" value="login" onclick="return login()"><strong>Sign in</strong></button>
                                 <script>
-                                function sub(){
+                                function login(){
                                     var username=document.getElementById("form-username").value
                                     var pwd=document.getElementById("form-password").value
-                                    alert("username: "+username+" "+"password: "+pwd);
+                                    if((username == "Taiping") &&(pwd == "admin2020"))
+                                    {
+                                        var url = "./main_index.html";
+                                        window.location(url);
+                                    }else
+                                    {
+                                        alert("username: "+username+" "+"password: "+pwd);
+                                    }
                                 }
                                 </script>
                             </div>
