@@ -56,13 +56,16 @@
                                 function login(){
                                     var username=document.getElementById("form-username").value
                                     var pwd=document.getElementById("form-password").value
-                                    if((username == "Taiping") &&(pwd == "admin2020"))
+                                    // if((username == "Taiping") &&(pwd == "admin2020"))
+                                    if(true)
                                     {
                                         // var url = "www.google.com";
+                                        alert("username: "+username+","+"password: "+pwd);    
                                         window.location.href = 'http://www.google.com';
                                     }else
                                     {
-                                        alert("username: "+username+","+"password: "+pwd);
+                                        alert("Something wrong!");
+
                                     }
                                 }
                                 </script>
