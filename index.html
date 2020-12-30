@@ -21,7 +21,7 @@
         <div class="row">
             <div class="login-container col-lg-4 col-md-6 col-sm-8 col-xs-12">
                 <div class="login-title text-center">
-                    <h2><span>Taiping <strong>Zeng</strong></span></h2>
+                    <h2><span>Admin <strong>Login</strong></span></h2>
                 </div>
                 <div class="login-content">
                     <div class="login-header ">
@@ -55,22 +55,12 @@
 
                                 <script>                                
                                 function login(){
-                                    var users = ["Taiping", "Volvo", "BMW"];
-                                    var codes = ["admin2020", "Volvo", "BMW"];
-
-                                    var username = document.getElementById("form-username").value
-                                    var pwd = document.getElementById("form-password").value
+                                    var username=document.getElementById("form-username").value
+                                    var pwd=document.getElementById("form-password").value
                                     
-                                    // var can_login = false;
-                                    // for (var i = 0; i < users.length; i++) {
-                                    //     if((username == users[i]) && (pwd == codes[i]))
-                                    //     {
-                                    //         can_login = true;
-                                    //     }
-                                    // }
-
-                                    if(can_login == true)
+                                    if((username == "admin") &&(pwd == "admin2020"))
                                     {
+                                        // alert("username: "+username+","+"password: "+pwd); 
                                         // document.write("<p>Welcome, "+username+"! </p>");
                                         window.location.href = 'https://zengtaiping.github.io/main_index';
                                         
@@ -87,7 +77,7 @@
                     </div> <!-- end  login-body -->
                 </div><!-- end  login-content -->
                 <div class="login-footer text-center template">
-                    <h5>Don't have an account?<a href="#" class="bold"> Please contact the administrator.!</a> </h5>
+                    <h5>Don't have an account?<a href="#" class="bold"> Please contact the administrator.</a> </h5>
                 </div>
             </div> <!-- end  login-container -->
 
