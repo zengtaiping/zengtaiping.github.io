@@ -1,5 +1,9 @@
 # Lab Wiki
-## h2 Heading
+
+## [linux setup](linux_setup.md)
+
+
+## markdown syntax example
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
