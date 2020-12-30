@@ -113,7 +113,7 @@ body{
          box-shadow:none; 
     }
     .login-header {
-        display: none;
+        display: inline-block;
     }
     .login-container .login-body {
         padding: 10px 10px;

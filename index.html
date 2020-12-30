@@ -22,12 +22,12 @@
             <div class="login-container col-lg-4 col-md-6 col-sm-8 col-xs-12">
                 <div class="login-title text-center">
                     <h2><span>Admin <strong>Login</strong></span></h2>
+                    <h3><strong>Welcome,</strong></h3>
+                </div>
+                <div class="login-title text-center" id="login_info_display">
+                    <h5>Please input your name and password:</h5>
                 </div>
                 <div class="login-content">
-                    <div class="login-header ">
-                        <h3><strong>Welcome,</strong></h3>
-                        <h5>Please input your name and password:</h5>
-                    </div>
                     <div class="login-body">
                         <form role="form" action="" method="post" class="login-form">
                             <div class="form-group ">
@@ -60,13 +60,13 @@
                                     
                                     if((username == "admin") &&(pwd == "admin2020"))
                                     {
-                                        // alert("username: "+username+","+"password: "+pwd); 
-                                        // document.write("<p>Welcome, "+username+"! </p>");
                                         window.location.href = 'https://zengtaiping.github.io/main_index';
                                         
                                     }else
                                     {
-                                        document.write("<p>Something wrong, please contact the administrator!</p>");
+                                        // document.write("<p>Something wrong, please contact the administrator!</p>");
+                                        document.getElementById("login_info_display").innerHTML += "<h5 style='background-color:Tomato;'>Something wrong, please contact the administrator!</h5>"; 
+
                                     }
                                 }
                                 </script>
