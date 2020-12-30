@@ -1,3 +1,5 @@
+# Linux Setup
+
 ## clean your mac os trash by command line
 ```
 sudo du -d 1 -h | sort -h
