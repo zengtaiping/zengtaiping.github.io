@@ -55,21 +55,28 @@
 
                                 <script>                                
                                 function login(){
-                                    var username=document.getElementById("form-username").value
-                                    var pwd=document.getElementById("form-password").value
+                                    var users = ["Taiping", "Volvo", "BMW"];
+                                    var codes = ["admin2020", "Volvo", "BMW"];
+
+                                    var username = document.getElementById("form-username").value
+                                    var pwd = document.getElementById("form-password").value
                                     
-                                    // window.location.assign("http://www.w3schools.com");
-                                    if((username == "Taiping") &&(pwd == "admin2020"))
+                                    var can_login = false;
+                                    for (var i = 0; i < users.length; i++) {
+                                        if((username == users[i]) && (pwd == codes[i]))
+                                        {
+                                            can_login = true;
+                                        }
+                                    }
+
+                                    if(can_login == true)
                                     {
-                                        // alert("username: "+username+","+"password: "+pwd); 
-                                        document.write("<p>Welcome, "+username+"! </p>");
+                                        // document.write("<p>Welcome, "+username+"! </p>");
                                         window.location.href = 'https://zengtaiping.github.io/main_index';
-                                        //window.location.assign("http://www.w3schools.com");
                                         
                                     }else
                                     {
-                                        document.write("<p>Something wrong</p>");
-
+                                        document.write("<p>Something wrong, please contact the administrator!</p>");
                                     }
                                 }
                                 </script>
@@ -77,15 +84,10 @@
 
                         </form>
                         
-                        <!-- <form action="https://zengtaiping.github.io/publications"> -->
-                        <form action="https://zengtaiping.github.io/main_index">
-                            <input type="submit" value="Go to publications" />
-                        </form>
-
                     </div> <!-- end  login-body -->
                 </div><!-- end  login-content -->
                 <div class="login-footer text-center template">
-                    <h5>Don't have an account?<a href="#" class="bold"> Please contact lab managers. </a> </h5>
+                    <h5>Don't have an account?<a href="#" class="bold"> Please contact the administrator.!</a> </h5>
                 </div>
             </div> <!-- end  login-container -->
 
