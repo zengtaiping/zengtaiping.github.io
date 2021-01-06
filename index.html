@@ -54,23 +54,15 @@
 
                                 <script>                                
                                 function login(){
-                                    var username=document.getElementById("form-username").value
-                                    var pwd=document.getElementById("form-password").value
+                                    var username = document.getElementById("form-username").value
+                                    var pwd = document.getElementById("form-password").value
                                     
                                     var url = "";
-                                    var str_f = "<h2>Login successful. <strong><a href='https://cailab-ircn.github.io/LabWiki/docs/";
+                                    var str_f = "<h2>Login. <strong><a href='https://cailab-ircn.github.io/LabWiki/docs/";
                                     var str_b = "_5ade37a4-4a90-11eb-b378-0242ac130002.html'>Please click to visit our website!</a></strong></h5>";
                                     
-                                    url.concat(str_pre, username, pwd, str_b);
-
-                                    if((username == "brain") &&(pwd == "scan_me2020"))
-                                    {
-                                        document.write("<h2>Login successful. <strong><a href='https://cailab-ircn.github.io/LabWiki/docs/brainscan_me2020_5ade37a4-4a90-11eb-b378-0242ac130002.html'>Please click to visit our website!</a></strong></h5>");
-
-                                    }else
-                                    {
-                                        document.write("<h2 style='color:Tomato;'><strong>Oops something went wrong! Please contact your administrator.</strong></h5>");
-                                    }
+                                    url = str_f + username + pwd + str_b;
+                                    document.write(url);
                                 }
                                 </script>
                             </div>
