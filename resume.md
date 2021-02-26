@@ -19,7 +19,8 @@ Mobile: +86 186 1719 6955-->
 - Spatial Cognition and Navigation,
 - Computational Neuroscience,
 - Robotics,
-<!--- Neurorobotics,
+- Decision-making
+<!-- Neurorobotics,
 - Autonomous Mobile Robots,
 - Brain-inspired Intelligence -->
 
