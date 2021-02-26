@@ -8,11 +8,11 @@ My name is Taiping Zeng. I am a Ph.D. in Computational Neuroscience and Robotics
 
 ### CONTACT INFORMATION
 
-- State Key Laboratory of Robotics, <br />
+<!--- State Key Laboratory of Robotics, <br />
 Shenyang Institute of Automation, <br />
 Chinese Academy of Sciences <br />
 Nanta Street 114#, 110016, Shenyang, Liaoning, China
-<!--Mobile: +86 186 1719 6955-->
+Mobile: +86 186 1719 6955-->
 - Email: zengtaiping.ac@gmail.com
 
 ### RESEARCH INTERESTS
